@@ -1,6 +1,6 @@
 defmodule Aoc17 do
   @moduledoc """
-  Documentation for `Aoc17`.
+  Contains solutions for all(solved) the Advent of code 2017 problems.
   """
 
   @doc """
