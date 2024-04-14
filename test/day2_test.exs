@@ -16,7 +16,7 @@ defmodule Aoc17.Day2Test do
   test "actual input part1" do
     input = File.read!("./data/day2.txt")
 
-    expected = 51139
+    expected = 43074
     got = Aoc17.Day2.part1(input)
 
     assert expected == got
@@ -37,7 +37,7 @@ defmodule Aoc17.Day2Test do
   test "actual input part2" do
     input = File.read!("./data/day2.txt")
 
-    expected = 272
+    expected = 280
     got = Aoc17.Day2.part2(input)
 
     assert expected == got

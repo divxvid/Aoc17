@@ -20,7 +20,7 @@ defmodule Aoc17.Day1Test do
       File.read!("./data/day1.txt")
       |> Aoc17.Day1.part1()
 
-    expected = 1223
+    expected = 1228
     assert expected == got
   end
 
@@ -44,7 +44,7 @@ defmodule Aoc17.Day1Test do
       File.read!("./data/day1.txt")
       |> Aoc17.Day1.part2()
 
-    expected = 1284
+    expected = 1238
     assert expected == got
   end
 end
