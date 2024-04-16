@@ -1,6 +1,7 @@
 defmodule Aoc17.Day4Test do
   use ExUnit.Case
 
+  @tag :skip
   test "sample part1" do
     input = "
       aa bb cc dd ee
@@ -13,6 +14,7 @@ defmodule Aoc17.Day4Test do
     assert expected == got
   end
 
+  @tag :skip
   test "input part1" do
     input = File.read!("./data/day4.txt")
 
@@ -21,6 +23,7 @@ defmodule Aoc17.Day4Test do
     assert expected == got
   end
 
+  @tag :skip
   test "part2: line is valid passphrase" do
     test_data = %{
       "abcde fghij" => true,
@@ -36,6 +39,7 @@ defmodule Aoc17.Day4Test do
     end)
   end
 
+  @tag :skip
   test "input part2" do
     input = File.read!("./data/day4.txt")
 

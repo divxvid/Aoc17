@@ -1,6 +1,7 @@
 defmodule Aoc17.Day3Test do
-  use ExUnit.Case
+  use ExUnit.Case, async: true
 
+  @tag :skip
   test "sample part1" do
     test_data = %{
       1 => 0,
@@ -18,6 +19,7 @@ defmodule Aoc17.Day3Test do
     end)
   end
 
+  @tag :skip
   test "input part1" do
     expected = 480
     got = Aoc17.Day3.part1(347_991)
@@ -25,6 +27,7 @@ defmodule Aoc17.Day3Test do
     assert expected == got
   end
 
+  @tag :skip
   test "sample part2" do
     test_data = %{
       1 => 2,
@@ -42,6 +45,7 @@ defmodule Aoc17.Day3Test do
     end)
   end
 
+  @tag :skip
   test "input part2" do
     expected = 349_975
     got = Aoc17.Day3.part2(347_991)

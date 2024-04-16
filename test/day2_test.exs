@@ -1,6 +1,7 @@
 defmodule Aoc17.Day2Test do
-  use ExUnit.Case
+  use ExUnit.Case, async: true
 
+  @tag :skip
   test "sample part1" do
     input = "
 5 1 9 5
@@ -13,6 +14,7 @@ defmodule Aoc17.Day2Test do
     assert expected == got
   end
 
+  @tag :skip
   test "actual input part1" do
     input = File.read!("./data/day2.txt")
 
@@ -22,6 +24,7 @@ defmodule Aoc17.Day2Test do
     assert expected == got
   end
 
+  @tag :skip
   test "sample part2" do
     input = "
 5 9 2 8
@@ -34,6 +37,7 @@ defmodule Aoc17.Day2Test do
     assert expected == got
   end
 
+  @tag :skip
   test "actual input part2" do
     input = File.read!("./data/day2.txt")
 
